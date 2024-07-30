@@ -1,7 +1,7 @@
 // import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
-// import three from '../assets/svg/projects/three.svg'
-// import four from '../assets/svg/projects/four.svg'
+import three from '../assets/svg/projects/three.svg'
+import four from '../assets/svg/projects/four.svg'
 // import five from '../assets/svg/projects/five.svg'
 // import six from '../assets/svg/projects/six.svg'
 // import seven from '../assets/svg/projects/seven.svg'
@@ -13,7 +13,7 @@ export const projectsData = [
         id: 2,
         projectName: 'Design Cartel',
         projectDesc: 'This project is a portfolio for the company to display the company products and designs',
-        tags: ['Javascript','HTML', 'CSS','PHP'],
+        tags: ['Javascript', 'HTML', 'CSS', 'PHP'],
         code: 'https://github.com/Satheeshraj05/designcartel',
         demo: 'https://satheeshraj05.github.io/designcartel/',
         image: two
@@ -22,21 +22,21 @@ export const projectsData = [
         id: 1,
         projectName: 'Simpson game',
         projectDesc: 'This project aims to build a Simpson game system that focuses on improving memory.',
-        tags: ['Javascript','HTML', 'CSS', ],
+        tags: ['Javascript', 'HTML', 'CSS',],
         code: 'https://github.com/Satheeshraj05/Simson_game',
         demo: 'https://satheeshraj05.github.io/Simson_game/',
         image: eight
     },
 
-    // {
-    //     id: 3,
-    //     projectName: 'Weather App',
-    //     projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-    //     tags: ['Django', 'CSS', 'Material Ui'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: three
-    // },
+    {
+        id: 3,
+        "projectName": "Ai-Saas",
+        "projectDesc": "This project involves the development of a comprehensive SaaS platform with AI capabilities for creating and managing text, code, images, videos, and music.",
+        "tags": ["Next.js", "React", "Tailwind CSS", "Prisma", "Vercel"],
+        "code": "https://github.com/Satheeshraj05/ai-saas-genius",
+        "demo": "https://ai-saas-genius-ehwm.vercel.app/",
+        "image": four
+    },
     // {
     //     id: 4,
     //     projectName: 'Android Patient Tracker',
