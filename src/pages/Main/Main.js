@@ -20,7 +20,6 @@ function Main() {
             <Projects />
             <Achievement />
             <Services />
-            <Testimonials />
             {/* <Blog /> */}
             <Contacts />
             <Footer />
