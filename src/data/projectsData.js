@@ -1,42 +1,89 @@
-// import one from '../assets/svg/projects/one.svg'
+import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-// import five from '../assets/svg/projects/five.svg'
-// import six from '../assets/svg/projects/six.svg'
-// import seven from '../assets/svg/projects/seven.svg'
+import five from '../assets/svg/projects/five.svg'
+import six from '../assets/svg/projects/six.svg'
+import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
 
 export const projectsData = [
     {
-        id: 2,
+        id: 1,
+        "projectName": "Ai-Saas",
+        "projectDesc": "This project involves the development of a comprehensive SaaS platform with AI capabilities for creating and managing text, code, images, videos, and music.",
+        "tags": ["Next.js", "React", "Tailwind CSS", "Prisma", "Vercel"],
+        "code": "https://github.com/Satheeshraj05/ai-saas-genius",
+        "demo": "https://ai-saas-genius-ehwm.vercel.app/",
+        "image": one
+    },
+    {
+        id: 3,
+        projectName: 'Justframez',
+        projectDesc: 'Developed a custom WordPress-based e-commerce platform with optimized galleries, secure payments, and seamless user experience for personalized photo frames.',
+        tags: ['Wordpress', 'Figma', 'Hostinger'],
+        code: 'https://justframez.in/',
+        demo: 'https://justframez.in/',
+        image: two
+    },
+    {
+        id: 3,
+        projectName: 'Food-Product-Explorer',
+        projectDesc: 'Explore food products with Food Product Explorer, a Next.js web app using the OpenFoodFacts API for easy search, filtering, and detailed viewing.',
+        tags: ['Next.js', 'React', 'Tailwind CSS', 'SWR', 'Heroicons', 'TypeScript', 'OpenFoodFacts API'],
+        code: 'https://github.com/Satheeshraj05/Food-Product-Explorer',
+        demo: 'https://food-product-explorer-self.vercel.app/',
+        image: three
+    },
+    {
+        id: 3,
         projectName: 'Design Cartel',
         projectDesc: 'This project is a portfolio for the company to display the company products and designs',
         tags: ['Javascript', 'HTML', 'CSS', 'PHP'],
         code: 'https://github.com/Satheeshraj05/designcartel',
         demo: 'https://satheeshraj05.github.io/designcartel/',
-        image: two
+        image: four
     },
     {
-        id: 1,
+        id: 3,
+        projectName: 'Secure-File-Sharing-App',
+        projectDesc: 'This project is a Secure File Sharing application built with React.js for the frontend and Django REST Framework for the backend. It allows users to upload, download, and share files securely.',
+        tags: ['React', 'Javascript', 'NodeJs', 'Django', 'API Endpoints', 'Branch framework',],
+        code: 'https://github.com/Satheeshraj05/Secure-File-Sharing-App',
+        demo: 'https://github.com/Satheeshraj05/Secure-File-Sharing-App',
+        image: five
+    },
+    {
+        id: 3,
+        projectName: 'Code-Editor',
+        projectDesc: 'This codebase provides a platform for creating, editing, and deleting codebases (or codebase files).',
+        tags: ['React', 'Javascript', 'TypeScript', 'Vite', 'API Endpoints', 'Branch framework'],
+        code: 'https://github.com/Satheeshraj05/Secure-File-Sharing-App',
+        demo: 'https://github.com/Satheeshraj05/Secure-File-Sharing-App',
+        image: six
+    },
+    
+    {
+        id: 2,
         projectName: 'Simpson game',
         projectDesc: 'This project aims to build a Simpson game system that focuses on improving memory.',
+        tags: ['Javascript', 'HTML', 'CSS',],
+        code: 'https://github.com/Satheeshraj05/Simson_game',
+        demo: 'https://satheeshraj05.github.io/Simson_game/',
+        image: seven
+    },
+    {
+        id: 2,
+        projectName: 'Vasitum-Dashboard',
+        projectDesc: 'This admin dashboard provides insights into key HR metrics, including available positions, open jobs, new hires, total employees, and talent requests, etc.,',
         tags: ['Javascript', 'HTML', 'CSS',],
         code: 'https://github.com/Satheeshraj05/Simson_game',
         demo: 'https://satheeshraj05.github.io/Simson_game/',
         image: eight
     },
 
-    {
-        id: 3,
-        "projectName": "Ai-Saas",
-        "projectDesc": "This project involves the development of a comprehensive SaaS platform with AI capabilities for creating and managing text, code, images, videos, and music.",
-        "tags": ["Next.js", "React", "Tailwind CSS", "Prisma", "Vercel"],
-        "code": "https://github.com/Satheeshraj05/ai-saas-genius",
-        "demo": "https://ai-saas-genius-ehwm.vercel.app/",
-        "image": four
-    },
+    
     // {
     //     id: 4,
     //     projectName: 'Android Patient Tracker',

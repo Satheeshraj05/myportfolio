@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'AVB Matric Higher Secondary School',
-        course: 'Higher Secondary Education',
-        startYear: '2016',
-        endYear: '2018'
+        institution: 'Amrita Vishwa Vidyapeetham',
+        course: 'Master Computer Application',
+        startYear: '2022',
+        endYear: '2024'
     },
     {
         id: 2,
@@ -13,11 +13,13 @@ export const educationData = [
         startYear: '2018',
         endYear: '2020'
     },
+    
     {
         id: 3,
-        institution: 'Amrita Vishwa Vidyapeetham',
-        course: 'Master Computer Application',
-        startYear: '2023',
-        endYear: 'Present'
+        institution: 'AVB Matric Higher Secondary School',
+        course: 'Higher Secondary Education',
+        startYear: '2016',
+        endYear: '2018'
     },
+    
 ]
